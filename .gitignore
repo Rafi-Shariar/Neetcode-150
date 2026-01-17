@@ -1,0 +1,15 @@
+# Ignore the specific executables from your screenshot
+test
+contains_duplicate
+
+# Ignore all files with no extension (common for compiled C++ on Unix/macOS)
+# Note: Be careful if you have other extensionless files you DO want to keep.
+*
+!*.*
+!*/
+
+# Alternatively, if you name your executables with .out or .exe
+*.out
+*.exe
+*.o
+*.obj
