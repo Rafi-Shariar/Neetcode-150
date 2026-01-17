@@ -1,0 +1,19 @@
+Ah! Got it — you want a **simple sorted list of time complexities from best to worst**, without tying to specific data structures. Here’s a clean version:
+
+---
+
+## **Time Complexities (Best → Worst)**
+
+| Complexity | Notes             |
+| ---------- | ----------------- |
+| O(1)       | Constant time     |
+| O(log n)   | Logarithmic time  |
+| O(n)       | Linear time       |
+| O(n log n) | Linearithmic time |
+| O(n²)      | Quadratic time    |
+| O(n³)      | Cubic time        |
+| O(2ⁿ)      | Exponential time  |
+| O(n!)      | Factorial time    |
+
+---
+
