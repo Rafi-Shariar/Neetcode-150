@@ -40,7 +40,6 @@ vector<int> topKFrequent(vector<int>&nums, int k){
 
    }
 
-  
    return ans;
    
 }
@@ -50,16 +49,13 @@ int main() {
     vector<int> nums = {1,2,2,3,3,3,4,4,4,8,8};
     int k = 2;
 
-    topKFrequent(nums,k);
+    vector<int>result = topKFrequent(nums,k);
 
 
-
-    
-
-    // for (int i = 0; i < result.size(); i++)
-    // {
-    //     cout << result[i] << " ";
-    // }
+    for (int i = 0; i < result.size(); i++)
+    {
+        cout << result[i] << " ";
+    }
     
 
     return 0;
